@@ -1,0 +1,111 @@
+footer {
+    font-size: 14px;
+    background-color: #F4F4F4;
+}
+
+@media (max-width: 720px) {
+    .footer-col {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1140px) {
+    .logo img {
+        width: 160px;
+        height: 60px;
+    }
+}
+
+.footer-title {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.footer-content:hover {
+    color: #fdc500;
+    text-decoration: underline;
+}
+
+.footer-content, .footer-content a {
+    color: #463f3a;
+    display: block;
+}
+
+.footer-content i {
+    font-size: 1.1rem;
+    transition: 0.5s ease;
+}
+
+.footer-content i:hover {
+    transform: scale(1.2);    
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLine {
+    width: 95%;
+    height: 1px;
+    margin: 20px auto 10px;
+    background-color:  rgb(70, 63, 58, 1);
+}
+
+footer a {
+    color: #463f3a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer .footer-social {
+    font-size: 1.1rem;
+}
+
+footer .footer-social:not(:first-child) {
+    margin-left: 10px;
+}
+
+footer .footer-social {
+    transition: 0.3s ease;
+}
+
+footer .fb:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+footer .tw:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+footer .yt:hover {
+    color: #C31A1E;
+    cursor: pointer;
+}
+
+footer .git:hover {
+    color: #040204;
+    cursor: pointer;
+}
+
+footer .copy {
+    transition: 0.3s ease;
+}
+
+footer .copy:hover {
+    color: #fdc500;
+}
+
+footer .ig:hover {
+    color: #CC2366;
+    cursor: pointer;
+}

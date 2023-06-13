@@ -1,0 +1,51 @@
+.forgot,
+.cancel {
+  color: darkgray;
+}
+
+.forgot:hover,
+.cancel:hover{
+  color: black;
+}
+
+.btnLog a,
+.btnSign a,
+.btnGoogle,
+.btnForgot{
+  color: white;
+  text-decoration: none;
+}
+
+.btnLog a:hover,
+.btnSign a:hover,
+.btnGoogle:hover,
+.btnForgot:hover{
+  color: black;
+}
+
+.btnLog, 
+.btnSign, 
+.btnGoogle, 
+.btnForgot{
+  margin-bottom: 5px;
+  height: 50px;
+}
+
+.login-container {
+  width: 35vw;
+}
+
+@media (max-width: 991px) {
+  .login-container {
+    min-width: 70vw !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .btnLog,
+  .btnSign,
+  .btnGoogle {
+    width: 110px;
+  }
+}
+
