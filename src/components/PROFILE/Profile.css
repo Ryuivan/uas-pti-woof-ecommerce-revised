@@ -1,0 +1,52 @@
+.cardProfile{
+    height: 400px;
+    box-shadow: 0 0 8px #212529;
+    padding: 50px 5px 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #c0c0b09d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+ .cardProfile .img-container{
+    width: 9em;
+    height: 9em;
+    border: 2px solid #BEBEBE;
+    background-color: #27272725;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+}
+  
+.cardProfile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cardProfile:hover{
+    background: linear-gradient(#E6DCAC, #394e65);
+    color: white;
+}
+
+.cardProfile:hover .img-container{
+    transform: scale(1.1);
+}
+
+.icons{
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons a{
+    color: black;
+}
+
+.icons a:hover{
+    color: white;
+}
