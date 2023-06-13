@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Website WOOF! dimulai dengan homepage yang menampilkan logo dari WOOF, Navigation Bar, Carousel, Products, Newsletter, dan Footer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Navigation Bar
+Terdapat beberapa fitur berupa:
+Home, digunakan untuk kembali ke halaman awal ketika Anda sedang berada di halaman lain.
+Products
+Anda akan pindah ke halaman lain yang menampilkan produk yang tersedia di e-commerce WOOF!.
+Categories
+Drop down Navigation Bar yang terdiri dari Signature Product, Crop Top, Hoodie, Sweater, T-Shirt, dan Totebag. Ketika Anda mengklik salah satu nya, maka akan mengarahkan Anda ke  sebuah halaman baru yang berisi produk-produk dalam satu kategori yang telah Anda plih.
+Wishlist
+Anda akan pindah ke halaman lain yang menampilkan produk yang Anda masukkan ke dalam wishlist.
+Cart
+Anda akan pindah ke halaman lain yang menampilkan produk yang Anda tambahkan ke dalam keranjang atau cart.
+Login dan Signup
+Anda akan pindah ke halaman login dan signup
+Search
+Anda dalam mencari produk yang diinginkan. Misalnya, Anda mengetik “hoodie” dan mengklik tombol search. Hal itu akan mengarahkan Anda pindah ke halaman lain yang berisi produk hoodie.
 
-## Available Scripts
+Body
+Pada bagian body dari homepage juga terdapat banner menarik untuk mempromosikan WOOF!, kemudian terdapat carousel dari sweater collection, signature collection, crop-top collection yang akan mengalokasikan pindah ke page jika di click khusus untuk produk-produk yang dipilih. Dibawah itu juga terdapat beberapa highlight dari signature product dan juga beberapa product dari WOOF!.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Newsletter
+Anda dapat memasukkan email Anda ke dalam fitur ini. Ketika muncul tulisan “Email has been submited”, maka Anda akan menerima email berupa pesan singkat dari WOOF!.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Footer
+Terdapat beberapa fitur berupa:
+About Us, berisi definisi dari apa itu WOOF!, Filosofi logo WOOF!, Tema website, dan juga beberapa foto dari pembuat-pembuat website bersama Dosen dan Asisten Lab.
+Contact, digunakan apabila ingin memberikan feedback atau menghubungi pihak WOOF! bisa melalui section feedback, phone number, ataupun melalui email.
+Location, digunakan untuk menandakan alamat dari WOOF! Offline Store
+Profile, dalam section ini berisi data-data dari seluruh anggota kelompok, seperti nama lengkap, NIM, link instagram, dan juga link github.
+Testimoni, berupa bagian yang menampilkan hasil testimoni dari customer WOOF! setelah membeli produk.
 
-### `npm test`
+Bagaimana cara memasukkan produk ke dalam Wishlist?
+Anda dapat mengklik produk yang Anda inginkan, lalu klik logo hati. Ketika ada muncul tulisan “Added to Wishlist”, maka produk Anda telah berhasil masuk ke dalam Wishlist.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bagaimana cara memasukkan produk ke dalam Cart?
+Anda dapat mengklik produk yang Anda inginkan, lalu klik tombol Add to Cart. Ketika Anda klik, maka akan muncul tulisan “Added to Cart”, dan ketika Anda klik lagi, maka akan menambahkan quantity produk yang Anda masukkan ke dalam Cart.
