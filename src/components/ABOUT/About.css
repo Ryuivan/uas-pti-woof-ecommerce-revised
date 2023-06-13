@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+    #about .logo-desc {
+        text-align: center !important;
+    }
+}
+
+#about {
+    overflow-x: hidden;
+}
+
+#about .line {
+    width: 25%;
+    height: 5px;
+    background-color: #fdc500;
+}
+
+#about .about-title {
+    font-weight: 700;
+    color: #f7c615;
+}
+
+#about .title-text {
+    margin: 1rem 0 0;
+}
+
+#about #about-carousel {
+    margin-top: 40px;
+}
+
+#about .about-carousel {
+    border-radius: 15px;
+}
+
+#about .about-title-2 {
+    font-weight: 700;
+}
+
+#about .about-logo {
+    width: 50vh;
+}
+
+#about .logo-desc {
+    text-align: justify;
+}
